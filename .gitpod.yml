@@ -3,3 +3,7 @@ image: gitpod/workspace-dotnet
 tasks:
   - init: dotnet build
     command: dotnet run
+
+ports:
+  - port: 5056
+    onOpen: open-browser
